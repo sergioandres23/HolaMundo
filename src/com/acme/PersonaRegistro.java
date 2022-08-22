@@ -36,6 +36,7 @@ public final class PersonaRegistro {
 
     @Override
     public String toString() {
+        System.out.println("Esta instrucción es inservible");
         return String.format("%s %s", nombre,apellidos);
     }
 
