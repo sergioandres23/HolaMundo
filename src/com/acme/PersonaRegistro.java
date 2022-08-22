@@ -36,7 +36,8 @@ public final class PersonaRegistro {
 
     @Override
     public String toString() {
-        System.out.println("Esta instrucción es inservible");
+        // Comenté la linea que considero se puede eliminar
+        //System.out.println("Esta instrucción es inservible");
         return String.format("%s %s", nombre,apellidos);
     }
 
